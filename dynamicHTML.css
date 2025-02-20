@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.data-item {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF; /* Change border color on focus */
+}
+
+.data-item div {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.data-item div:hover {
+    background-color: #d3d3d3; /* Change background on hover */
+}
